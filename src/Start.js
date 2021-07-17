@@ -9,7 +9,7 @@ const Start = (props) => {
           <br />
           얼마나 알고 있을까?
         </h1>
-        <input className="text-box" type="text" placeholder="내 이름" />
+        <input className="input-box" type="text" placeholder="내 이름" />
         <button className="button">시작하기</button>
       </div>
     </div>
