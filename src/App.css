@@ -30,11 +30,13 @@
 
 .outter h1 span {
   background-color: #ffe08c;
+  font-weight: bold;
   padding: 5px 10px;
   border-radius: 30px;
 }
 
 .input-box {
+  text-align: center;
   padding: 10px;
   margin: 25px 0px;
   border: 1px solid #eaeaea;
