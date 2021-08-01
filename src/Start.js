@@ -17,8 +17,15 @@ const Start = (props) => {
         </h1>
         <input
           ref={input_text}
-          className="text-box"
           type="text"
+          style={{
+            padding: "7px",
+            margin: "20px 0px",
+            border: "1px solid #4374d9",
+            borderRadius: "20px",
+            width: "40%",
+            textAlign: "center",
+          }}
           placeholder="내 이름"
         />
         <button

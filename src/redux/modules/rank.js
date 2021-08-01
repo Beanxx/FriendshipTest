@@ -15,7 +15,27 @@ const initialState = {
     100: "우린 둘도 없는 단짝! :)",
   },
 
-  ranking: [{ score: 40, name: "최수빈", message: "안녕 포뇨!" }],
+  ranking: [
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+    { score: 40, name: "최수빈", message: "안녕 포뇨!" },
+  ],
 };
 
 export const addUserName = (user_name) => {

@@ -4,6 +4,7 @@ import img from "./ponyo.jpg";
 import TinderCard from "react-tinder-card";
 import SwipeItem from "./SwiptItem";
 import Score from "./Score";
+import Progress from "./Progress";
 
 import { useSelector, useDispatch } from "react-redux";
 import { addAnswer } from "./redux/modules/quiz";
@@ -33,6 +34,7 @@ const Quiz = (props) => {
 
   return (
     <QuizContainer>
+      <Progress />
       <p>
         <span>{num + 1}번 문제</span>
       </p>
@@ -70,7 +72,7 @@ const Quiz = (props) => {
 
 const QuizContainer = styled.div`
   text-align: center;
-  margin-top: 130px;
+  margin-top: 50px;
   & > p > span {
     padding: 8px 16px;
     background-color: #ffe08c;
