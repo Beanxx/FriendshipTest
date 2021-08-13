@@ -81,7 +81,10 @@ const Message = (props) => {
               current: true,
             };
             dispatch(addRank(rank_info));
-            props.history.push("/ranking");
+
+            window.setTimeout(() => {
+              props.history.push("/ranking");
+            }, 1000);
           }}
           style={{
             padding: "8px 24px",
